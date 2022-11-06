@@ -1,0 +1,58 @@
+strictHostKeyChecking=no
+
+#new config file
+Host everybastion
+   Hostname bastion-sql.letgo.cloud
+   User santiago.lertora
+   IdentityFile ~/.ssh/binlogic
+
+Host binjumper
+   HostName jumper.binlogic.com
+   User slertora
+   IdentityFile ~/.ssh/binlogic
+
+Host devnode01
+   HostName 192.168.1.165
+   User devnode01
+#   IdentityFile ~/.ssh/binlogic
+
+Host advansweb1
+   HostName 67.205.124.182
+   User slertora
+   Port 2278
+#   IdentityFile ~/.ssh/customers
+
+Host blcserver
+   HostName 162.254.201.113
+   User root
+   IdentityFile ~/.ssh/santiagolertora
+
+Host everyweb
+   HostName ssh -i ec2-3-80-28-122.compute-1.amazonaws.com
+   User centos
+   IdentityFile ~/.ssh/virginia-every.pem
+
+# Personal account, - the default config
+Host github.com
+   HostName github.com
+   User santiagolertora
+   IdentityFile ~/.ssh/santiagolertora
+
+# Github Binlogic
+Host github.com  
+   HostName github.com
+   User slertora
+   IdentityFile ~/.ssh/santiago.binlogic
+
+# Github every
+Host github.com   
+   HostName github.com
+   User santiago-every
+   IdentityFile ~/.ssh/everygitssh
+
+# Github MariaDB
+Host github.com-work_user1    
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_work_user1
+
