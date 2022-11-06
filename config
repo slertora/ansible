@@ -1,6 +1,6 @@
 strictHostKeyChecking=no
 
-
+#new config file
 Host everybastion
    Hostname bastion-sql.letgo.cloud
    User santiago.lertora
